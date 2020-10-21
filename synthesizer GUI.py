@@ -39,21 +39,32 @@ fg="white",justify=CENTER).grid(row=0,column=0,columnspan=11)
 
 #txtDate=Entry(ABC1, textvariable=Time1, font=('arial',18,'bold'),bd=34,bg="powder blue",
 #fg="white",width=28,justify=CENTER).grid(row=1,column=2,columnspan=1)
-btnCs=Button(ABC, height=2, width=4,bd=4, text="Rec", font=('arial',18,'bold'),bg="black",fg="white")
+btnCs=Button(ABC, height=2, width=6,bd=4, text="Rec", font=('arial',18,'bold'),bg="black",fg="white")
 btnCs.grid(row=0,column=2,padx=5,pady=5)
 
-btnCs=Button(ABC1, height=2, width=4,bd=4, text="1", font=('arial',18,'bold'),bg="black",fg="white")
+btnCs=Button(ABC1, height=2, width=6,bd=4, text="sin", font=('arial',18,'bold'),bg="black",fg="white")
 btnCs.grid(row=1,column=4,padx=5,pady=5)
 
-btnCs=Button(ABC1, height=2, width=4,bd=4, text="2", font=('arial',18,'bold'),bg="black",fg="white")
+btnCs=Button(ABC1, height=2, width=6,bd=4, text="square", font=('arial',18,'bold'),bg="black",fg="white")
 btnCs.grid(row=1,column=5,padx=5,pady=5)
 
-btnCs=Button(ABC1, height=2, width=4,bd=4, text="3", font=('arial',18,'bold'),bg="black",fg="white")
+btnCs=Button(ABC1, height=2, width=6,bd=4, text="Triangle", font=('arial',18,'bold'),bg="black",fg="white")
 btnCs.grid(row=1,column=6,padx=5,pady=5)
 
-btnCs=Button(ABC1, height=2, width=4,bd=4, text="4", font=('arial',18,'bold'),bg="black",fg="white")
+btnCs=Button(ABC1, height=2, width=4,bd=4, text="cos", font=('arial',18,'bold'),bg="black",fg="white")
 btnCs.grid(row=1,column=7,padx=5,pady=5)
 
+btnCs=Button(ABC1, height=2, width=4,bd=4, text="cord1", font=('arial',18,'bold'),bg="black",fg="white")
+btnCs.grid(row=2,column=4,padx=5,pady=5)
+
+btnCs=Button(ABC1, height=2, width=4,bd=4, text="cord2", font=('arial',18,'bold'),bg="black",fg="white")
+btnCs.grid(row=2,column=5,padx=5,pady=5)
+
+btnCs=Button(ABC1, height=2, width=4,bd=4, text="cord3", font=('arial',18,'bold'),bg="black",fg="white")
+btnCs.grid(row=2,column=6,padx=5,pady=5)
+
+btnCs=Button(ABC1, height=2, width=4,bd=4, text="cord4", font=('arial',18,'bold'),bg="black",fg="white")
+btnCs.grid(row=2,column=7,padx=5,pady=5)
 
 #==============================Black Button===============================
 btnCs=Button(ABC3, height=6, width=6,bd=4, text="C#", font=('arial',18,'bold'),bg="black",fg="white")
